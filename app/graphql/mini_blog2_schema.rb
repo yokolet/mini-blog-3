@@ -1,6 +1,6 @@
 class MiniBlog2Schema < GraphQL::Schema
   use GraphqlDevise::SchemaPlugin.new(
-    query:            Types::QueryType,
+    query:            Types::QueryType, authenticate_default: false,
     mutation:         Types::MutationType,
     resource_loaders: [
       GraphqlDevise::ResourceLoader.new(User)
