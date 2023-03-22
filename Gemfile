@@ -40,3 +40,5 @@ group :development do
   # gem "spring"
 end
 
+
+gem "graphql_devise", "~> 1.2"
