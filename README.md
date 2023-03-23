@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The mini-blog-2 is an example Ruby on Rails app with GraphQL and authentication by Devise.
+The details are in the blog post,
+[Make it Secure 2, GraphQL by Rails and Devise](https://yokolet.com/2023/03/23/make-it-secure-2-graphql-by-rails-and-devise.html).
