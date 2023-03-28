@@ -39,5 +39,8 @@ module MiniBlog2
     config.session_store :cookie_store, key: "_mini-blog-2_session_#{Rails.env}"
     config.middleware.use ActionDispatch::Cookies
     config.middleware.use config.session_store, config.session_options
+
+    # when protect_from_forgery with: :null_session is used, add blow.
+    config.middleware.use ActionDispatch::Flash
   end
 end
